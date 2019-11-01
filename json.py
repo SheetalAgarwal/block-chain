@@ -3,7 +3,7 @@ import random
 import string
 
 def randomString(stringLength=6):
-    """Generate a random string of letters and digits """
+    """Generate a random string of letters"""
     letters = string.ascii_letters
     return ''.join(random.choice(letters) for i in range(stringLength))
 
